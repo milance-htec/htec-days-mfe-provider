@@ -1,5 +1,6 @@
 {
   "name": "@mnm-tech/provider",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -53,11 +54,6 @@
     "jwt-decode": "^3.0.0-beta.2",
     "query-string": "^6.13.1",
     "react-router-dom": "^5.2.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [

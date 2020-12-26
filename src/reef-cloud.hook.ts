@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { IReefCloudContext } from './types';
-import { ReefCloudContext } from './reef-cloud.context';
+import { IMnMContext } from './types';
+import { MnMContext } from './reef-cloud.context';
 
-const useReefCloud = (): IReefCloudContext => {
-  const context = React.useContext(ReefCloudContext);
+const useMnM = (): IMnMContext => {
+  const context = React.useContext(MnMContext);
 
   return context;
 };
 
-export default useReefCloud;
+export default useMnM;
