@@ -1,0 +1,8 @@
+node_modules
+*.log
+dist
+.cache
+lib
+!src/*
+!test/*
+.idea
