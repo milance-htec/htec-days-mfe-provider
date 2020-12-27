@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { MnMContext } from './reef-cloud.context';
+import { MnMContext } from './mnm.context';
 
 type IMnMProviderProps = {
   children: React.ReactNode;

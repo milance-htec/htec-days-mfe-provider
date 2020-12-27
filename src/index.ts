@@ -1,6 +1,6 @@
-import useMnM from './reef-cloud.hook';
-import MnMProvider from './reef-cloud.provider';
-import { MnMContext } from './reef-cloud.context';
+import useMnM from './mnm.hook';
+import MnMProvider from './mnm.provider';
+import { MnMContext } from './mnm.context';
 
 export { useMnM, MnMContext, MnMProvider };
 
